@@ -1,0 +1,44 @@
+  IP ADDRESS               PORT      PORT STATUS         SERVICE            PROSPECTIVE THREAT 
+
+ 192.168.1.1              23/tcp     filtered            telnet             It Open ports can expose services and applications to unauthorized access, making them vulnerable to various attacks like brute-force, injection, and DoS attacks. 
+                          53/tcp     open                domain             It IS primarily used for DNS communication, poses potential security risks including DNS hijacking, domain shadowing, DNS spoofing/cache poisoning, DNS tunneling, botnet attacks, and DDoS amplification. 
+                          80/tcp     open                http               It allows unencrypted communication, potentially exposing sensitive data to eavesdropping or manipulation by attackers. 
+                          443/tcp    open                https              If the underlying service is misconfigured, vulnerable, or not properly patched. Hackers can exploit these vulnerabilities to gain access to systems, potentially leading to data breaches, malware distribution, or other malicious activities. 
+
+
+
+192.168.1.4              1080/tcp    open               socks               It can be exploited as an entry point for unauthorized access, data breaches, and potentially compromise other systems within a network              
+                         8009/tcp    open               ajp13               It can allow attackers to bypass web server security measures and directly interact with the underlying servlet engine, potentially leading to data breaches, unauthorized access, and even remote code execution if the server is vulnerable. 
+                         8888/tcp    open               sun-answerbook      It creates an entry point for unauthorized access. Intruders can exploit open ports to gain remote access, potentially leading to malware installation or data breaches. 
+                         9091/tcp    open               xmltec-xmlmail      Open ports can expose services and applications to unauthorized access, making them vulnerable to various attacks like brute-force, injection, and DoS attacks. 
+
+
+192.168.1.5             554/tcp      filtered           rtsp                Without proper security measures, RTSP streams, which are often used for IP camera footage, can be vulnerable to unauthorized access, privacy breaches, and potential exploitation for other malicious activities. 
+                        8080/tcp     open               http-proxy          An open HTTP-proxy port, particularly one without encryption, presents significant security risks. Attackers can exploit it to intercept data, launch DDoS attacks, and distribute malware
+                        8081/tcp     open               blackice-icecap     Open ports, like 8081, expand the network's attack surface, increasing the likelihood of a breach or malware infestation. The services and applications using these open ports may have unpatched vulnerabilities that could be exploited. 
+                        8088/tcp     open               radan-http          An open Radan-http port can be used as an entry point for credential stuffing attacks, where attackers try to guess or steal usernames and passwords to gain access to user accounts. 
+
+
+192.168.1.17            135/tcp      open               msrpc               This can lead to sensitive data breaches, DDoS attacks, or complete system control. 
+                        139/tcp      open               netbios-ssn         When port 139 is open, shared directories and files become accessible to anyone on the network, including malicious actors. 
+                        445/tcp      open               microsoft-ds        This vulnerability has been a major source of cyberattacks, including ransomware like WannaCry, which exploited the EternalBlue vulnerability in SMBv1. 
+                        5357/tcp     open               wsdapi              This vulnerability, also known as "SMBGhost," allows attackers to send specially crafted packets to devices running vulnerable WSDAPI versions, leading to the execution of arbitrary code. 
+                        7070/tcp     open               realserver          Attackers can exploit known vulnerabilities in services associated with open ports to gain access to a system. For example, if a server has an outdated version of a service, an attacker could use this to gain unauthorized access. 
+
+ 
+192.168.1.22            80/tcp       open               http                It allows unencrypted communication, potentially exposing sensitive data to eavesdropping or manipulation by attackers. 
+                        554/tcp      open               rtsp                Without proper security measures, RTSP streams, which are often used for IP camera footage, can be vulnerable to unauthorized access, privacy breaches, and potential exploitation for other malicious activities. 
+                        8000/tcp     open               http-alt            Attackers can use this open port to identify vulnerabilities in the services running on your server, potentially leading to data breaches, malware infections, or even full system compromise. 
+
+
+
+
+
+
+
+
+
+
+
+
+          
